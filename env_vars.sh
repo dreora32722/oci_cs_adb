@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 # Set env variables
 export comp_name=AndyTael
