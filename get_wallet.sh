@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [ -z "$TNS_ADMIN" ] || [ -z "$adb_id"] || [ -z "$wallet_pwd" ] || [ -z "$wallet_file"]
+then
+  echo "Error: missing variable definitions"
+  exit 1
+fi
+
 # Create network/admin directory and get the wallet
 mkdir -p ${TNS_ADMIN}
 

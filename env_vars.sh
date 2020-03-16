@@ -1,9 +1,10 @@
 #!/bin/bash
 
 # Set env variables
-export comp_name=<Name of the compartment for the ADB>
-export db_pwd=<Strong password e.g. the ADMIN password for ADB>
-export db_name=<Name of the ADB>
+export comp_name=
+echo "DB Password :" ; read -s db_pwd; export db_pwd
+#`export db_pwd=<Strong password e.g. the ADMIN password for ADB>
+export db_name=
 export display_name=${db_name}
 export wallet_file=${db_name}
 export wallet_pwd=${db_pwd}
