@@ -3,7 +3,6 @@
 # Set env variables
 export comp_name=
 echo "DB Password :" ; read -s db_pwd; export db_pwd
-export db_name=
 export display_name=${db_name}
 export wallet_file=${db_name}
 export wallet_pwd=${db_pwd}
