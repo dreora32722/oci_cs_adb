@@ -7,4 +7,4 @@ then
 fi
 
 cp $TNS_ADMIN/sqlnet.ora $TNS_ADMIN/sqlnet.ora.bkp
-sed -i -e "s|?/network/admin|${TNS_ADMIN}|g" ${TNS_ADMIN}sqlnet.ora 
+sed -i -e "s|?/network/admin|${TNS_ADMIN}|g" ${TNS_ADMIN}/sqlnet.ora 
