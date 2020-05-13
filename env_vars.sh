@@ -15,7 +15,7 @@ export conn_string=${db_name}_medium                    # Connection string for 
 export bucket_name=datafile-bucket                      # The name of the Object Storage Bucket
 export ocid_bucket=variablenotset                       # The ocid for the Object Storage bucket
 export tenancy_namespace=variablenotset # The tenancy namespace required for some Object Storage operations
-export datafile_to_load=dp_STTables_20200313.dmp.       # Adjust as required
+export datafile_to_load=dp_STTables_20200313.dmp        # Adjust as required
 
 # NOTE: Password must be 12 to 30 characters and contain at least one uppercase letter, one lowercase letter, 
 # and one number. The password cannot contain the double quote (") character or the username "admin".
