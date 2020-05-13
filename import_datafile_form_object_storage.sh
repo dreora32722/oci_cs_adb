@@ -1,0 +1,1 @@
+impdp admin/${db_pwd}@${db_name}_high directory=data_pump_dir credential=OBJ_STORE_CRED dumpfile=https://objectstorage.ap-sydney-1.oraclecloud.com/n/${tenancy_namespace}/b/${bucket_name}/o/${datafile_to_load} parallel=1 full=y logfile=MyDataImport.log
