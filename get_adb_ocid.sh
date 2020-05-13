@@ -10,3 +10,4 @@ fi
 adb_id=$(oci db autonomous-database list -c ${ocid_comp} --query "data [?\"db-name\"=='${db_name}'] | [0].id" --raw-output)
 
 echo "DB Name/OCID for ATP: " ${db_name} / ${adb_id}
+export adb_id;
