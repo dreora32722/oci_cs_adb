@@ -9,4 +9,5 @@ fi
 # Get Compartment OCID
 ocid_comp=$(oci iam compartment list --compartment-id-in-subtree true --query "data [?\"name\"=='${comp_name}'] | [0].id" --raw-output)
 
-echo "Comapartment OCID: " ${ocid_comp}
+echo "Compartment OCID: " ${ocid_comp}
+export ocid_comp;
